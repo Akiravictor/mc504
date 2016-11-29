@@ -1,0 +1,1 @@
+cmd_arch/x86/boot/compressed/vmlinux.bin.bz2 := (cat arch/x86/boot/compressed/vmlinux.bin | bzip2 -9 && printf \\270\\045\\140\\000) > arch/x86/boot/compressed/vmlinux.bin.bz2 || (rm -f arch/x86/boot/compressed/vmlinux.bin.bz2 ; false)

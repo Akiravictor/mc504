@@ -1,0 +1,3 @@
+kernel/drivers/crypto/geode-aes.ko
+kernel/drivers/crypto/padlock-aes.ko
+kernel/drivers/crypto/padlock-sha.ko

@@ -1,0 +1,10 @@
+kernel/drivers/acpi/ac.ko
+kernel/drivers/acpi/button.ko
+kernel/drivers/acpi/fan.ko
+kernel/drivers/acpi/processor.ko
+kernel/drivers/acpi/thermal.ko
+kernel/drivers/acpi/battery.ko
+kernel/drivers/thermal/x86_pkg_temp_thermal.ko
+kernel/drivers/crypto/geode-aes.ko
+kernel/drivers/crypto/padlock-aes.ko
+kernel/drivers/crypto/padlock-sha.ko
