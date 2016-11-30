@@ -57,7 +57,10 @@ obj-y			+= alternative.o i8253.o pci-nommu.o hw_breakpoint.o
 obj-y			+= tsc.o tsc_msr.o io_delay.o rtc.o
 obj-y			+= pci-iommu_table.o
 obj-y			+= resource.o
+
 obj-y			+= mycall.o
+obj-y			+= settmpkey.o
+obj-y			+= gettmpkey.o
 
 obj-y				+= process.o
 obj-y				+= fpu/

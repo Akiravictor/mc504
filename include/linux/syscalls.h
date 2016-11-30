@@ -206,8 +206,8 @@ extern struct trace_event_functions exit_syscall_print_funcs;
 	static inline long SYSC##name(__MAP(x,__SC_DECL,__VA_ARGS__))
 
 asmlinkage long sys_mycall(void);
-asmlinkage long sys_settmpkey(void);
-asmlinkage long sys_gettmpkey(void);
+asmlinkage long sys_settmpkey(int key, char* value, unsigned int lifespan);
+asmlinkage long sys_gettmpkey(int key, int n, char* value);
 
 asmlinkage long sys32_quotactl(unsigned int cmd, const char __user *special,
 			       qid_t id, void __user *addr);
